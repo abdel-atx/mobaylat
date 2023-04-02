@@ -21,5 +21,5 @@ app.use("/", indexRoutes);
 app.use("/v2", indexRoutesV2);
 app.use('*', errorRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 443;
 app.listen(PORT, () => console.log(`App running on PORT ${PORT}`));
